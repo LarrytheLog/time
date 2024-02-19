@@ -7,6 +7,7 @@
     <string name="convert">Convert</string>
     <string name="home_time_zone">Home Time Zone</string>
     <string name="save">Save</string>
+    <string name="edit_time">Edit Time</string>
     <string-array name="timezones">
         <item>America/New_York</item>
         <item>America/Los_Angeles</item>
