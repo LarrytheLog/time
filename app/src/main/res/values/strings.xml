@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Time conv</string>
+    <string name="app_name">Time Converter App</string>
     <string name="title">Time Zone Converter</string>
     <string name="timezone_title">Current Time Zone</string>
     <string name="original_time">Original Time</string>
@@ -16,6 +16,7 @@
         <item>Asia/Singapore</item>
         <item>Asia/Tokyo</item>
         <item>Australia/Canberra</item>
+        <item>Africa/Cape_Town</item>
     </string-array>
     <string-array name="gmt">
             <item>GMT -05:00</item> <!-- America/New_York -->
@@ -25,5 +26,6 @@
             <item>GMT +08:00</item> <!-- Asia/Singapore -->
             <item>GMT +09:00</item> <!-- Asia/Tokyo -->
             <item>GMT +10:00</item> <!-- Australia/Canberra -->
+            <item>GMT +02:00</item> <!-- Africa/Cape_Town -->
     </string-array>
 </resources>

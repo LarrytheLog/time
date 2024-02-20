@@ -52,9 +52,6 @@
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="12dp"
         android:background="#023047"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -78,7 +75,7 @@
         android:id="@+id/current_time_zone_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/crimson_text"
         android:text="@string/timezone_title"
@@ -136,7 +133,7 @@
         app:layout_constraintTop_toBottomOf="@+id/container1" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/home_time_zone_diff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -198,7 +195,7 @@
         app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/converted"
         android:layout_width="147dp"
         android:layout_height="48dp"
         android:fontFamily="@font/crimson_text"
@@ -274,5 +271,17 @@
         app:srcCompat="@drawable/edit_icon"
         app:tint="#1b263b"
         android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/warning"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_warning"
+        app:tint="#EF233C" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

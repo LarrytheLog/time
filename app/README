@@ -1,0 +1,16 @@
+lcai17
+adayani1
+
+No Convert Text on Convert Button. Design should be intuitive enough to show that the button is used to convert
+Using Floating Buttons as they are more clear on the clickability.
+Using Floating Button to edit time as it is more clear on how to edit time with an edit icon.
+
+
+Does it make sense to have multiple activities for this simple version of the app? Are there any design changes would you suggest with respect to the purpose of each activity and navigation between views?
+I would suggest to have a single activity with multiple fragments. This will make the app more efficient and easy to manage. Also, it will make the navigation between views more smooth and efficient.
+Just from a code perspective, it is a lot easier to manage a single activity with multiple fragments than to manage multiple activities. Also, it is more efficient in terms of memory and performance.
+
+How did you test whether the app displayed the correct results for each combination?
+I tested the app by comparing the results of the app to an online converter.
+
+The most challenging part of this project was getting used to android studio and understanding the layout and design of the app. I had to do a lot of research and watch a lot of tutorials to understand how to design the app and how to use the different features of android studio.
